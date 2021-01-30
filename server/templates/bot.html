@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chat bot</title>
+		<!-- css -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+	</head>
+	<body>
+		<!-- header -->
+
+		<!-- main -->
+		<main class="main">
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer__container">
+				<textarea
+					class="footer__textarea"
+					name="message"
+					placeholder="Input message"
+				></textarea>
+				<button class="footer__btn">Send</button>
+			</div>
+		</footer>
+		<!-- js -->
+		<script src="{{ url_for('static', filename='js/app.js') }}" type="module"></script>
+	</body>
+</html>
